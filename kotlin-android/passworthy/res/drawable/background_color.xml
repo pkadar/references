@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:startColor="@color/passworthy_start_brown"
+                android:centerColor="@color/passworthy_center_brown"
+                android:endColor="@color/passworthy_end_brown" />
+        </shape>
+    </item>
+</selector>

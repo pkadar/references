@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Passworthy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="username_text">Username</string>
+    <string name="username_copied_clipboard_text">Username copied to clipboard</string>
+    <string name="password_text">Password</string>
+    <string name="password_copied_clipboard_text">Password copied to clipboard</string>
+    <string name="add_new_item_text">Add new item</string>
+    <string name="edit_existing_item_text">Edit existing item</string>
+    <string name="add_text">Add</string>
+    <string name="edit_text">Edit</string>
+    <string name="name_required_text">You must enter at least the name</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="save_text">Save</string>
+    <string name="mp_changed_text">MasterPassword successfully changed</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="password_required_text">You must have a password</string>
+    <string name="delete_all_confirmation_text">Are you sure you want to delete every item?</string>
+    <string name="yes_text">Yes</string>
+    <string name="delete_one_item_confirmation_text">Are you sure you want to delete item named: %1$s?</string>
+    <string name="number_of_days_changed">Number of days successfully changed</string>
+    <string name="no_negative_numbers">Numbers can not be negative</string>
+    <string name="must_be_integer">Must be integer</string>
+    <string name="can_not_be_empty">Can not be empty</string>
+    <string name="notification_title">Expired passwords</string>
+    <string name="notification_text">Number of expired passwords: %1$d</string>
+    <string name="first_start_resetted">First start resetted</string>
+    <string name="enter_mpw_to_log_in">Enter your Master Password to log in</string>
+    <string name="login_text">Login</string>
+    <string name="incorrect_password">Incorrect password!</string>
+    <string name="enter_your_password">Enter your password!</string>
+    <string name="register_information_text">Enter a new Master Password\n\nChoose wisely, because you have to type it in every time you want to run Passworthy</string>
+    <string name="set_password">Set Password</string>
+    <string name="made_by">made by\n PÉTER KÁDÁR</string>
+    <string name="name_text">Name</string>
+    <string name="description_text">Description:</string>
+    <string name="type_here_text">Type here</string>
+    <string name="copy_to_clipboard_text">Copy to clipboard:</string>
+    <string name="extra_info_text">Extra info:</string>
+    <string name="change_master_password">Change Master Password</string>
+    <string name="enter_new_master_password">Enter your new master password.\n\nMake sure you enter it correctly, because if you mistype, you will not be able to log in.</string>
+    <string name="enter_days_until_alert_title">Enter days until alert</string>
+    <string name="enter_days_until_alert_text">Enter your desired days until notifications. This number decides when you will receive a notification about a password getting too old.</string>
+    <string name="delete_all_text">Delete all</string> <!--TÖRÖLNI-->
+
+</resources>

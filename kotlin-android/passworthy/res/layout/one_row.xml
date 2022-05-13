@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:id="@+id/oneRowLayout"
+    android:background="@drawable/one_row_bg">
+
+    <ImageView
+        android:id="@+id/id_old_pw"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_old_pw"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ic_lock"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_key"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Teszt cím Teszt cím Teszt cím"
+            android:textSize="18sp"
+            android:layout_weight="6"
+            android:layout_marginStart="18dp"
+            android:textStyle="bold"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/itemUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="16sp"
+            tools:text="username"
+            android:layout_marginStart="18dp"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>

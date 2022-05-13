@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#FFFFFF</color>
+    <color name="delete_all_background_tint">#6D0B0B</color>
+    <color name="color_text_passworthy">#5d5e26</color>
+    <color name="color_lightyellow_passworthy">#ffed58</color>
+    <color name="color_yellow_passworthy">#fbd734</color>
+    <color name="color_lightgrey_passworthy">#788f9b</color>
+    <color name="color_darkgrey_passworthy">#546e7a</color>
+    <color name="passworthy_start_brown">#D912090A</color>
+    <color name="passworthy_center_brown">#F012090A</color>
+    <color name="passworthy_end_brown">#12090a</color>
+    <color name="color_backgorund_main">#B3A6A6</color>
+
+</resources>

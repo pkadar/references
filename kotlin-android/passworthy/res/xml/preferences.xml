@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="MasterPassword"
+        app:icon="@drawable/ic_master_pw">
+
+        <Preference
+            app:key="masterpw"
+            app:title="Change Master Password"
+            app:summary="Click here to change your master password"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Notification"
+        app:icon="@drawable/ic_notification">
+        <SwitchPreferenceCompat
+            app:key="notification"
+            app:title="Allow notifications"
+            app:summaryOn="The application sends you notifications about old passwords"
+            app:summaryOff="The application does not send you notifications about old passwords" />
+        <Preference
+            app:key="daysuntilalert"
+            app:title="Days until alert"
+            app:summary="Click here to change the number of days until the notification"
+            app:dependency="notification"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>
